@@ -1,0 +1,5 @@
+---
+  namespace: default
+  image:
+    repository: neogeowild/api
+    tag: latest

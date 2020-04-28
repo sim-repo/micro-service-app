@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: app
+    release: {{ .Release.Name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: app
+        release: {{ .Release.Name }}
+    spec:
+      restartPolicy: Always
+      containers:
+        - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          name: app
+          ports:
+            - containerPort: 3000
+            
