@@ -1,5 +1,5 @@
 ---
   namespace: default
   image:
-    repository: neogeowild/app
+    repository: postgres
     tag: latest

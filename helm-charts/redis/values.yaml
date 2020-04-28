@@ -1,5 +1,5 @@
 ---
   namespace: default
   image:
-    repository: neogeowild/redis
+    repository: redis
     tag: latest
