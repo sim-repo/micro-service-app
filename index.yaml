@@ -53,7 +53,7 @@ entries:
     name: pg
     type: application
     urls:
-    - pg-0.0.1.tgz
+    - pg-0.1.0.tgz
     version: 0.1.0
   redis:
   - apiVersion: v2
