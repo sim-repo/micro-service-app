@@ -9,7 +9,7 @@ entries:
     name: api
     type: application
     urls:
-    - api-0.0.1.tgz
+    - api-0.1.0.tgz
     version: 0.1.0
   app:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: app
     type: application
     urls:
-    - app-0.0.1.tgz
+    - app-0.1.0.tgz
     version: 0.1.0
   ingress:
   - apiVersion: v2
@@ -31,7 +31,7 @@ entries:
     name: ingress
     type: application
     urls:
-    - ingress-0.0.1.tgz
+    - ingress-0.1.0.tgz
     version: 0.1.0
   nginx:
   - apiVersion: v2
@@ -42,7 +42,7 @@ entries:
     name: nginx
     type: application
     urls:
-    - nginx-0.0.1.tgz
+    - nginx-0.1.0.tgz
     version: 0.1.0
   pg:
   - apiVersion: v2
@@ -64,7 +64,7 @@ entries:
     name: redis
     type: application
     urls:
-    - redis-0.0.1.tgz
+    - redis-0.1.0.tgz
     version: 0.1.0
   worker:
   - apiVersion: v2
@@ -75,6 +75,6 @@ entries:
     name: worker
     type: application
     urls:
-    - worker-0.0.1.tgz
+    - worker-0.1.0.tgz
     version: 0.1.0
 generated: "2020-04-28T19:30:49.165457+03:00"
