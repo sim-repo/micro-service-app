@@ -43,6 +43,7 @@ spec:
       name: postgres
       labels:
         app: postgres
+        release: {{ .Release.Name }}
     spec:
       accessModes: [ "ReadWriteOnce" ]
       resources:
