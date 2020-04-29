@@ -61,7 +61,7 @@ entries:
     created: "2020-04-29T10:11:30.184352+03:00"
     description: A Helm chart for Kubernetes
     digest: ff3bf31e660b7352418e94df4842064cf37c4fd1c3c2f682b996b0508858b32b
-    name: redis
+    name: redis2
     type: application
     urls:
     - redis2-0.1.0.tgz
