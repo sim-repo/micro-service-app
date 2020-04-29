@@ -3,3 +3,4 @@
   image:
     repository: neogeowild/nginx
     tag: latest
+  internalPort: 30080
