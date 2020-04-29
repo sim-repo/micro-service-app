@@ -2,15 +2,15 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: redis2
+  name: redis
   namespace: {{ .Values.namespace }}
   labels:
-    app: redis2
+    app: redis
     release: {{ .Release.Name }}
 spec:
   type: ClusterIP
   selector:
-    app: redis2
+    app: redis
     release: {{ .Release.Name }}
   ports:
     - port: 6379
