@@ -1,2 +1,4 @@
 ---
   namespace: default
+  externalPort: 30080
+  

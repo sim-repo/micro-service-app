@@ -10,4 +10,4 @@ spec:
           - path: /*
             backend:
               serviceName: nginx
-              servicePort: 30080  
+              servicePort: {{ .Values.externalPort }}
