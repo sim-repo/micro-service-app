@@ -2,25 +2,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: redis
+  name: redis2
   namespace: {{ .Values.namespace }}
   labels:
-    app: redis
+    app: redis2
     release: {{ .Release.Name }}
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: redis
+      app: redis2
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: redis
+        app: redis2
         release: {{ .Release.Name }}
     spec:
       containers:
       - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-        name: redis
+        name: redis2
         ports:
           - containerPort: 6379
