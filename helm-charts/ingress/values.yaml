@@ -1,5 +1,4 @@
 ---
   namespace: default
   externalPort: 30080
-  nginxServiceName: nginx.default.svc.cluster.local 
   

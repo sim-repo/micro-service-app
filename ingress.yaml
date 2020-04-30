@@ -2,12 +2,12 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: ingress
-  namespace: {{ .Values.namespace }}
+  namespace: alex
 spec:
   rules:
     - http:
         paths:
           - path: /*
             backend:
-              serviceName: nginx 
-              servicePort: {{ .Values.externalPort }}
+              serviceName: nginx
+              servicePort: 30081
