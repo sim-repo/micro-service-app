@@ -9,5 +9,5 @@ spec:
         paths:
           - path: /*
             backend:
-              serviceName: nginx
+              serviceName: {{ .Values.nginxServiceName }}
               servicePort: {{ .Values.externalPort }}
