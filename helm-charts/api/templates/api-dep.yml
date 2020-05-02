@@ -35,6 +35,6 @@ spec:
           - name: PGUSER
             value: postgres
           - name: PGPASSWORD
-            value: postgres
+            value: example
         ports:
           - containerPort: 5000

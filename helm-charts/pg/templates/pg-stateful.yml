@@ -33,7 +33,7 @@ spec:
             - name: POSTGRES_USER
               value: postgres
             - name: POSTGRES_PASSWORD
-              value: postgres
+              value: example
             - name: POSTGRES_DB
               value: postgres
             - name: PGDATA

@@ -3,9 +3,9 @@ entries:
   api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.533192+03:00"
+    created: "2020-05-02T20:59:21.577897+03:00"
     description: A Helm chart for Kubernetes
-    digest: 7c0e98c814120f715a36cd90b2a285f5d7fa182fa6c2b0965ef08148cf425ec6
+    digest: 1bcabace9a002b3651a375dc3e3da134d54066753600cf08a70683c80f709849
     name: api
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.53346+03:00"
+    created: "2020-05-02T20:59:21.578166+03:00"
     description: A Helm chart for Kubernetes
     digest: a0c13f1df33558961e736f4c664a0a07b3531aca3eff2ec53e26c02afa6965a8
     name: app
@@ -25,7 +25,7 @@ entries:
   ingress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.533645+03:00"
+    created: "2020-05-02T20:59:21.578348+03:00"
     description: A Helm chart for Kubernetes
     digest: 8c8afd7a08b47b263346f0c866d67e2113519f03392880971968e6d0d4ab761d
     name: ingress
@@ -36,7 +36,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.53388+03:00"
+    created: "2020-05-02T20:59:21.578664+03:00"
     description: A Helm chart for Kubernetes
     digest: bfe1abce81bae7e03a2a1d2f2e7ae44a68516020b68beff78e56a164d15a7cf6
     name: nginx
@@ -47,9 +47,9 @@ entries:
   pg:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.534079+03:00"
+    created: "2020-05-02T20:59:21.578868+03:00"
     description: A Helm chart for Kubernetes
-    digest: d8705f49e2ff817851df0d514c10fbbec124ea1969c9d3522f6514c81bf50a9d
+    digest: c2d538c9b639d9130477e1a6154c01f1af565b3b8739bad16affc3d427bbbf5d
     name: pg
     type: application
     urls:
@@ -58,7 +58,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.534282+03:00"
+    created: "2020-05-02T20:59:21.596057+03:00"
     description: A Helm chart for Kubernetes
     digest: ff3bf31e660b7352418e94df4842064cf37c4fd1c3c2f682b996b0508858b32b
     name: redis
@@ -69,7 +69,7 @@ entries:
   worker:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-04-30T09:11:43.534473+03:00"
+    created: "2020-05-02T20:59:21.600414+03:00"
     description: A Helm chart for Kubernetes
     digest: 6ff8fb42ef8a079255c291c8e2fde44170bda480642fe495b18c39b59a7c122a
     name: worker
@@ -77,4 +77,4 @@ entries:
     urls:
     - worker-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-30T09:11:43.532758+03:00"
+generated: "2020-05-02T20:59:21.577482+03:00"
