@@ -18,6 +18,10 @@ spec:
         app: api
         release: {{ .Release.Name }}
     spec:
+      initContainers:
+      - name: init-postgres
+        image: busybox:1.28
+        command: ['sh', '-c', "until nslookup postgres.{{ .Values.namespace }}.svc.cluster.local; do echo waiting for postgres; sleep 2; done"]
       containers:
       - image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         name: api
