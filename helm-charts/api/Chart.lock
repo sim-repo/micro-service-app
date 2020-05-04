@@ -1,0 +1,6 @@
+dependencies:
+- name: pg
+  repository: file://
+  version: 0.1.0
+digest: sha256:3a9567119fdac36e562a40d6cf1c70a54d1a4471b05265f2ff264647599107f3
+generated: "2020-05-04T11:05:37.843696+03:00"

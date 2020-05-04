@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  pg:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-04T10:49:16.222502+03:00"
+    description: A Helm chart for Kubernetes
+    digest: c2d538c9b639d9130477e1a6154c01f1af565b3b8739bad16affc3d427bbbf5d
+    name: pg
+    type: application
+    urls:
+    - pg-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-05-04T10:49:16.185354+03:00"
