@@ -3,7 +3,7 @@ entries:
   adminer:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.037133+03:00"
+    created: "2020-05-07T13:32:19.24734+03:00"
     description: A Helm chart for Kubernetes
     digest: 3b3cfacc45e69c5e9ed53c5743e410ad85dcc686ffa19c9049dfed51f1bb391c
     name: adminer
@@ -14,13 +14,9 @@ entries:
   api:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.037564+03:00"
-    dependencies:
-    - name: pg
-      repository: file://
-      version: 0.1.0
+    created: "2020-05-07T13:32:19.247743+03:00"
     description: A Helm chart for Kubernetes
-    digest: 9b87e374d55dd28355b679765492be242db30dacdf47a9ab4146efc38f212f0e
+    digest: bee63253b9f0df30f9771ac87bda74f29337bdf4c4d983af8f44692301607651
     name: api
     type: application
     urls:
@@ -29,7 +25,7 @@ entries:
   app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.037772+03:00"
+    created: "2020-05-07T13:32:19.247952+03:00"
     description: A Helm chart for Kubernetes
     digest: a0c13f1df33558961e736f4c664a0a07b3531aca3eff2ec53e26c02afa6965a8
     name: app
@@ -40,7 +36,7 @@ entries:
   ingress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.03797+03:00"
+    created: "2020-05-07T13:32:19.248145+03:00"
     description: A Helm chart for Kubernetes
     digest: 8c8afd7a08b47b263346f0c866d67e2113519f03392880971968e6d0d4ab761d
     name: ingress
@@ -48,10 +44,21 @@ entries:
     urls:
     - ingress-0.1.0.tgz
     version: 0.1.0
+  istio-gateway:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-05-07T13:32:19.248452+03:00"
+    description: A Helm chart for Kubernetes
+    digest: c34c793f4034b0ee850e044a837d7ec5fde9b561a70a1c3af3810c3a9c9ea6b3
+    name: istio-gateway
+    type: application
+    urls:
+    - istio-gateway-0.1.0.tgz
+    version: 0.1.0
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.038224+03:00"
+    created: "2020-05-07T13:32:19.248661+03:00"
     description: A Helm chart for Kubernetes
     digest: bfe1abce81bae7e03a2a1d2f2e7ae44a68516020b68beff78e56a164d15a7cf6
     name: nginx
@@ -62,7 +69,7 @@ entries:
   pg:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.038613+03:00"
+    created: "2020-05-07T13:32:19.249123+03:00"
     description: A Helm chart for Kubernetes
     digest: e2af1b1432e67abe9b907e0a618bfd7055924d2a5a568da104430febc264bf5d
     name: pg
@@ -73,7 +80,7 @@ entries:
   redis:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.038938+03:00"
+    created: "2020-05-07T13:32:19.249501+03:00"
     description: A Helm chart for Kubernetes
     digest: ff3bf31e660b7352418e94df4842064cf37c4fd1c3c2f682b996b0508858b32b
     name: redis
@@ -84,7 +91,7 @@ entries:
   worker:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-05-04T11:57:37.039208+03:00"
+    created: "2020-05-07T13:32:19.249838+03:00"
     description: A Helm chart for Kubernetes
     digest: 6ff8fb42ef8a079255c291c8e2fde44170bda480642fe495b18c39b59a7c122a
     name: worker
@@ -92,4 +99,4 @@ entries:
     urls:
     - worker-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-04T11:57:37.036746+03:00"
+generated: "2020-05-07T13:32:19.246942+03:00"
